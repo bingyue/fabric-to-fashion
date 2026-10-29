@@ -1,0 +1,35 @@
+{
+  "name": "fabric-to-fashion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3018",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3018",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "lucide-react": "^0.577.0",
+    "next": "16.4.3",
+    "pdfkit": "^0.17.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5",
+    "zod": "4.6.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/archiver": "^7.0.0",
+    "@types/node": "^22.19.0",
+    "@types/pdfkit": "^0.17.5",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "prettier": "^3.9.9",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

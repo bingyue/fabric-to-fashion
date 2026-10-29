@@ -1,0 +1,43 @@
+node_modules/
+.next/
+.data/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+output/
+tmp/
+
+# Local OS / editor files and logs
+.DS_Store
+._*
+*.log
+.idea/
+.vscode/
+coverage/
+
+# Credentials and private local configuration
+.npmrc
+.ssh/
+.secrets/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.local.json
+*.local.yaml
+*.local.yml
+*.secure
+.encryption-key
+
+# Databases and backups (runtime data is not source code)
+backups/
+*.bak
+*.dump
+*.sql
+*.sqlite*
+*.db
